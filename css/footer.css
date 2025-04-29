@@ -1,0 +1,12 @@
+footer{
+    background: rgb(126, 255, 124);
+    /*backdrop-filter: blur(20px);*/
+    }
+    
+    footer nav{
+        background: rgb(73, 207, 15);
+        height: 120px;
+    }
+#navfooter{
+
+}
