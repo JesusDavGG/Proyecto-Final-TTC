@@ -1,12 +1,21 @@
 footer{
-    background: rgb(126, 255, 124);
+    background: rgb(73, 207, 15);
     /*backdrop-filter: blur(20px);*/
     }
     
-    footer nav{
-        background: rgb(73, 207, 15);
-        height: 120px;
-    }
+footer nav{
+    background: rgb(73, 207, 15);
+    height: 120px;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
 #navfooter{
+    
+}
 
+img{
+    width: 20%;
+    opacity: 40%;
 }
