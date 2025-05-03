@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Veggie Life</title>
+    <script src="insertar.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formulario.css">
+   
+</head>
+<body>
+    <header id="HOME">
+        <div id="contenedor1">
+            <a href="index.html"><img id="imglogo" src="img/veggie_logo2.jpg" alt="Logo"></a>
+            <h1>¡Come bien!</h1>
+        </div>
+        <nav>
+           <ul>
+             <li><a href="">¿Quiénes somos?</a></li>
+             <li><a href="">Menú</a></li>
+             <li><a href="productos_org.html">Productos orgánicos</a></li>
+             <li><a href="formulario.html">Ingresar</a></li>
+             <li><a href="">Contactos</a></li>
+           </ul>
+        </nav>
+    </header>
+    <fieldset>
+        <h1 id="titulofrm">Datos del cliente</h1>
+         <form action=""> 
+         <div id="contenedor1input">
+             <label for="">Documento</label>
+             <input id="documento" type="number" placeholder="Documento" required class="inputtxt">
+             <label for="">Nombre</label>
+             <input id="nombre" type="text" placeholder="Nombre" required class="inputtxt">
+             <label for="">Fecha de nacimiento</label>
+             <input id="fecha" type="date" required class="inputtxt">
+             <label for="">Correo</label>
+             <input id="correo" type="email" placeholder="Correo" required class="inputtxt">
+             <label for="">password</label>
+             <input id="edad" type="password" placeholder="password" class="inputtxt">
+         </div>
+ 
+             <label class="titulolabel" for="">Estado Civil</label>
+             <div  class="estadocivil">
+                <label for="soltero">Soltero</label>
+                <input type="radio" name="ec" id="soltero">
+                </div>
+                <div class="estadocivil">
+                <label for="casado">Casado</label>
+                <input type="radio" name="ec" id="casado">
+                </div>
+                
+                <div class="estadocivil">
+                <label for="ul">Unión libre</label>
+                <input type="radio" name="ec" id="ul"> 
+                </div>
+                <label class="titulolabel" for="">Deporte favorito</label>
+                <div  class="estadocivil">
+                <label for="">Futbol</label>
+                <input type="checkbox">
+                </div>
+                <div  class="estadocivil">
+                    <label for="">Ciclismo</label>
+                    <input type="checkbox">
+                    </div>
+                    <div  class="estadocivil">
+                    <label for="">Natación</label>
+                    <input type="checkbox">
+                    </div>
+        
+                    <label class="titulolabel" for="">País de nacimiento</label>
+                    <select name="" id="">
+                        <option value="">Colombia</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Venezuela</option>
+                        <option value="">Perú</option>
+                    </select>
+        
+        
+                    <label class="titulolabel" for="">Mensaje</label>
+                    <textarea name="" id=""></textarea>
+                    <button type="submit">Guardar</button>
+
+        </form>
+       
+        
+    </fieldset>
+
+    <footer >
+        <nav id="navfooter">
+            <ul>
+              <li><a href="#HOME"><img src="img/home.png" alt="Home"></a></li>
+              <li><a href="https://www.instagram.com/veggielifemedellin/"><img src="img/instagram.png" alt="Instagram"></a></li>
+              <li><a href="https://www.facebook.com/veggielifeMedellin"><img src="img/facebook.png" alt="Facebook"></a></li>
+              <li><a href="https://www.tiktok.com/@theveggielife_?lang=es"><img src="img/tik-tok.png" alt="TikTok"></a></li>
+              <li><a><img src="img/whatsapp.png" alt="WhatsApp"> <br>+57 3016480461</a></li>
+              <li><a><img src="img/email.png" alt="Correo"> <br>veggielifemedellin@gmail.com</a></li>
+            </ul>
+ 
+        </nav>
+    </footer>
+</body>
+</html>

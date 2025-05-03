@@ -63,19 +63,16 @@
 }
 
 .art{
-  width:17%; 
+  width:80%; 
   padding: 10px;
   font-size: 16px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 5px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .art img{
     width:100% ;
-    height:200px ;
-    border-radius: 50%;
     opacity:0.8;
     transition:opacity 0.3s ease ;
 }
