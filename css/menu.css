@@ -1,0 +1,94 @@
+#sectionuno{
+    background-color:aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 1200px;
+}
+
+#art1{
+    background-color: rgba(127, 255, 212, 0.4);
+}
+
+#art2{
+    background-color: rgba(138, 43, 226, 0.4);
+}
+
+#art3{
+    background-color: rgba(210, 105, 30, 0.4);
+}
+
+#art4{
+    background-color: rgba(220, 20, 60, 0.3);
+}
+
+#art5{
+    background-color: rgba(0, 100, 0, 0.4);
+}
+
+.art{
+    width: 17.2%;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px dotted black;
+    border-radius: 50px 0 50px 0;
+}
+.art img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.art img:hover{
+    opacity: 1;
+}
+
+p{
+    margin-left: 20px;
+}
+
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:whitesmoke;
+}
+
+@media screen and (min-width:300px) and (max-width:420px){
+    body{
+        background-color: red;
+    }
+
+    #section1{
+        background-color:aqua;
+        background-image: url('../IMG/Luigi_plush.webp');
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .art{
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 2px dotted black;
+        border-radius: 50px 0 50px 0;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width:720px){
+    body{
+        background-color: yellowgreen;
+    }
+}
