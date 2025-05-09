@@ -11,7 +11,7 @@ header{
       }
     
     
-    h1{
+    header h1{
         background: 0;
         color:#226137;
         font-size: 50px;
@@ -23,14 +23,14 @@ header{
      
     }
     
-    nav{
+    header nav{
         background:0;
         margin-left:auto;
         display: flex;
         align-items:center ;
         width:50%;
     }
-    ul{
+    header ul{
         background-color: 0;
         width: 100%;
         display: flex;
@@ -38,10 +38,10 @@ header{
        
        
     }
-    li{
+    header li{
         display: inline;
     }
-    a{
+    header a{
         text-decoration: none;
         font-size: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

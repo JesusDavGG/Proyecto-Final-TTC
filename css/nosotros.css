@@ -1,19 +1,12 @@
-p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 150%;
-}
-
 #sectionuno{
-    background: rgba(255,255,255,255);
-    background-size: contain;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top:10px ;
     padding-top: 10px;
     padding-bottom:30px ;
-  
-
+    background-image: url('../img/menu_back.png');
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 #section{
@@ -30,17 +23,8 @@ p{
     justify-content: center;
 }
 
-#p{
-    background: rgba(255, 255, 255, 0.5);
-    font-size: 50px;
-    width: 70%;
-    text-align:justify;
-
-}
-
 #sectionuno h1{
     width: 100%;
-    color: #000; 
     height:40px;
     margin-bottom: 30px;
     color: rgb(255, 102, 0);
@@ -59,67 +43,29 @@ p{
     background-color: rgba(255, 128, 0,0.5);
 }
 
-#art4{
-    background: rgba(255,255,255,0.5)
-}
-
-#art5{
-    background-color:rgba(255, 69, 0,0.5) ;
-}
-
 .art{
-  width:60%; 
+  width:31%; 
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */transition: transform 0.3s ease, box-shadow 0.3s ease;    
+  text-align: center;
+  border-radius: 20px;
+}
+
+.art h1{
+    justify-content: center;
 }
 
 .art img{
-    width:50% ;
+    width:100% ;
     opacity:0.8;
     transition:opacity 0.3s ease ;
+    border-radius: 20px;
 }
 
 .art img:hover{
     opacity: 1;
-}
-
-#contenedor2{
-    background-color: 0;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-#contenedor2 h1{
-    width: 100%;
-    color: #000;
-    color: rgb(255, 102, 0);
-    font-weight: bold;
-    font-size: 30px;
-}
-
-#imge{
-    width: 50%;
-    height:400px ;
-    background-image: url('../img/fun-2213606_1920.jpg');
-     background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#txt {
-    width: 45%;
-    font-size: 20px;
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */
 }
 
 @media screen and (min-width:300px) and (max-width:420px){

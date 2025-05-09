@@ -1,29 +1,20 @@
+main{
+    background-image: url('../img/menu_back.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
 #sectionuno{
-    background: rgba(255,255,255,255);
     background-size: contain;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top:10px ;
     padding-top: 10px;
     padding-bottom:30px ;
-  
 
 }
 
-#section{
-    background-image: url('../img/animals-2222007_1920.jpg');
-    /*background-repeat: no-repeat;/*Para que la imagen no se repita*/
-    background-size: cover;
-    height: 400px;
-    
-    margin-top:10px ;
-    padding-top: 30px;
-    padding-bottom:30px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #p{
     background: rgba(255, 255, 255, 0.5);
@@ -33,15 +24,6 @@
 
 }
 
-#sectionuno h1{
-    width: 100%;
-    color: #000; 
-    height:40px;
-    margin-bottom: 30px;
-    color: rgb(255, 102, 0);
-    font-weight: bold;
-    font-size: 30px;
-}
 
 #art1{    background-color:rgba(29, 175, 0, 0.5) ;
 }
@@ -55,20 +37,17 @@
 }
 
 #art4{
-    background: rgba(255,255,255,0.5)
-}
-
-#art5{
-    background-color:rgba(255, 69, 0,0.5) ;
+    background-color: rgba(220, 20, 60, 0.5);
 }
 
 .art{
   width:80%; 
+  margin-top: 20px;
   padding: 10px;
   font-size: 16px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
 }
 
 .art img{
@@ -81,49 +60,6 @@
     opacity: 1;
 }
 
-#contenedor2{
-    background-color: 0;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-#contenedor2 h1{
-    width: 100%;
-    color: #000;
-    color: rgb(255, 102, 0);
-    font-weight: bold;
-    font-size: 30px;
-}
-
-#imge{
-    width: 50%;
-    height:400px ;
-    background-image: url('../img/fun-2213606_1920.jpg');
-     background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#txt {
-    width: 45%;
-    font-size: 20px;
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3); /* Elevación fuerte */
-}
-
-@media screen and (min-width:300px) and (max-width:420px){
-    body{
-        background-color: red;
-    }
-}
-
-@media screen and (min-width:421px) and (max-width:720px){
-    body{
-        background-color: yellowgreen;
-    }
+#map{
+    padding-top: 20px;
 }
